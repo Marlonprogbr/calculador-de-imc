@@ -68,6 +68,7 @@ class _MyAppState extends State<MyApp> {
             ElevatedButton(
                 onPressed: _calcularIMC,
                 child: Text("Calcular")),
+            Text("ALTERAÇÕES NA NOVA_BRANCH")
           ],
         ),
       ),
