@@ -5,7 +5,7 @@ void main()=>runApp(MaterialApp(
   home: MyApp(),
   theme: ThemeData(
    // useMaterial3: true,
-    primarySwatch: Colors.purple,
+    primarySwatch: Colors.orange,
   ),
 ));
 
@@ -68,6 +68,7 @@ class _MyAppState extends State<MyApp> {
             ElevatedButton(
                 onPressed: _calcularIMC,
                 child: Text("Calcular")),
+            Text("ALTERAÇÕES NA NOVA_BRANCH")
           ],
         ),
       ),
